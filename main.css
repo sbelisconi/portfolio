@@ -4,7 +4,7 @@ body{
 }
 
 div{
-	border: 2px solid red;
+	border: 0px solid red;
 }
 
 .container{
@@ -61,7 +61,7 @@ a:hover{
 
  .banner{
  	display: flex;
- 	padding: 5px;
+ 	padding: 10px;
  	justify-content: center;
  	align-items: center;
  	text-align: center;
@@ -96,6 +96,7 @@ a:hover{
  	width: 50%;
  	background-color: #FCFCFC;
  	box-sizing: border-box;
+ 	padding: 10px;
  }
  .intro p{
  	font-size: 3em;
@@ -179,6 +180,7 @@ a:hover{
  	height: 200px;
  	width: 30%;
  	color: #1e1f21;
+ 	height: 500px;
  }
  #education{
  	text-transform: uppercase;
@@ -277,22 +279,23 @@ a:hover{
 .service{
 	display: flex;
 	width: 100%;
-	background-color: #FCFCFC;
 	box-sizing: border-box;
 	height: 200px;
+	background-color: #F0F0F0;
 }
 .service1{
 	width: 30%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #fcfcfc;
+	background-color: #f0f0f0;
 }
 
 .service1 h2{
 	font-weight: 600;
  	font-size: 24px;
  	color: #1e1f21;
+ 	background-color: #FCFCFC;
 }
 .service2{
 	width: 70%;
@@ -347,6 +350,11 @@ a:hover{
 .follow li{
 	display: inline-block;
 	padding-left: 10px;
+}
+
+.follow ul{
+	margin: 0;
+	padding: 0;
 }
 /*.follow li a:hover{
 	color: #e88f96;
