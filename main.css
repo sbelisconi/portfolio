@@ -1,0 +1,389 @@
+body{
+	background-color: #F5F5F5;
+	font-family: "Montserrat", sans-serif;
+}
+
+div{
+	border: 2px solid red;
+}
+
+.container{
+	background-color: #F5F5F5;
+	min-height: 200px;
+	padding: 5px;
+	color: #1e1f21;
+}
+
+.nav{
+	display: flex;
+	height: 150px;
+	margin: 0px;
+	text-align: center;
+	
+}
+.logo{
+	width: 30%;
+	background-color: #e88f96;
+	/*background-image: url('images/logo.jpg');
+	background-size: 100px 100px;
+	background-repeat: no-repeat;*/
+
+}
+.logo p img{
+	width: 130px;
+	height: 130px;
+	align-content: center;
+	border-radius: 50%;
+}
+.logo p{
+	text-align: center;
+}
+.menu{
+	width: 70%;
+	align-content: center;
+	text-align: center;
+	background-color: #e88f96;
+}
+
+.menu li{
+	display: inline-block;
+	padding: 40px;
+}
+ ul li a{
+ 	text-decoration: none;
+ 	font-size: 20px;
+ 	color: #1e1f21; /*#2E4052;*/ 
+ 	font-weight: bold;
+ }
+a:hover{
+ 	color: #ffffff; /*#FCD1B5;*/
+ }
+
+ .banner{
+ 	display: flex;
+ 	padding: 5px;
+ 	justify-content: center;
+ 	align-items: center;
+ 	text-align: center;
+ }
+ .btn{
+ 	width: 30%;
+ 
+ }
+ .btn button{
+ 	height: 150px;
+ 	width: 150px;
+ 	border-radius: 50%;
+ 	font-size: 22px;
+ 	font-weight: 500;
+ 	color: white;
+ 	border: none;
+ 	background-color: #1e1f21;
+ 	box-shadow: 3px 3px 5px #444545;
+ }
+ .btn button a{
+ 	text-decoration: none;
+ 	color: white;
+ }
+  .btn button a:hover{
+ 	background-color: #E88F96;
+ }
+
+ button:hover{
+ 	background-color: #E88F96;
+ }
+ .intro{
+ 	width: 50%;
+ 	background-color: #FCFCFC;
+ 	box-sizing: border-box;
+ }
+ .intro p{
+ 	font-size: 3em;
+ 	font-weight: 200;
+ 	text-align: center;
+ 	line-height: 72px;
+ 	padding-left: 2px;
+ 	color: #1e1f21;
+ }
+ .intro p > span{
+ 	font-family: "Macondo", cursive;
+ 	font-weight: 100;
+ 	color: #E88F96;
+ }
+ .intro2{
+ 	width: 20%;
+ 	line-height: 32px;
+ 	padding: 2px;
+ 	background-color: #FCFCFC;
+ 	color: #1e1f21;
+ }
+
+
+.main-abt{
+	display: flex;
+	padding: 5px;
+	box-sizing: border-box;
+}
+ .abt-head{
+ 	font-size: 24px;
+ 	font-weight: 200;
+ 	text-align: center;
+ 	background-color: #F0F0F0;
+ 	height: 200px;
+ 	width: 30%;
+ 	color: #1e1f21;
+ }
+ .abt-head p{
+ 	font-weight: 600;
+ 	color: #1e1f21;
+ }
+  .abt-head p > span{
+ 	font-family: "Macondo", cursive;
+ 	font-weight: lighter;
+ 	color: #E88F96;
+ 	}
+
+ .abt-content{
+ 	width: 70%;
+ 	background-color: #FCFCFC;
+ 	padding: 5px;
+ 	color: #1e1f21;
+ }
+
+ .abt-content table{
+ 	cellpadding: 5px;
+ 	width: 50%;
+ }
+ .abt-content table td:nth-child(3){
+ 	font-weight: bold;
+ }
+
+ #aboutme{
+ 	text-transform: uppercase;
+ 	font-weight: 300;
+ 	font-size: 24px;
+ 	color: #1e1f21;
+ }
+
+ .edu{
+ 	display: flex;
+	padding: 5px;
+	box-sizing: border-box;
+ }
+
+  .edu-head{
+ 	font-size: 24px;
+ 	font-weight: 600;
+ 	text-align: center;
+ 	background-color: #F0F0F0;
+ 	height: 200px;
+ 	width: 30%;
+ 	color: #1e1f21;
+ }
+ #education{
+ 	text-transform: uppercase;
+ 	font-weight: 300;
+ 	font-size: 24px;
+ 	color: #1e1f21;
+ }
+
+ .edu-content{
+ 	width: 70%;
+ 	background-color: #FCFCFC;
+ 	padding: 5px;
+ }
+
+ .edu-head p > span{
+ 	font-family: "Macondo", cursive;
+ 	font-weight: lighter;
+ 	color: #E88F96;
+ 	}
+
+ .skill{
+ 	display: flex;
+ 	height: 200px;
+ 	width: 100%;
+ 	box-sizing: border-box;
+ }
+
+ .parent-skill{
+ 	width: 30%;
+ 	background-color: #F0F0F0;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+ 	font-size: 24px;
+ 	font-weight: 200;
+ 	color: #1e1f21;
+
+ }
+ .parent-skill h2, .parent-skill p{
+ 	margin: 10px;
+ 	font-weight: 600;
+ 	font-size: 24px;
+ 	color: #1e1f21;
+
+ }
+.parent-skill p > span{
+	font-family: "Macondo", cursive;
+	margin: 0;
+	font-weight: 800;
+	color: #1e1f21;
+}
+
+ .skill1{
+ 	width: 17%;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-color: #FCFCFC;
+ 	padding: 5px;
+ }
+ .skill2{
+ 	width: 17%;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-color: #FCFCFC;
+ 	padding: 5px;
+ }
+  .skill3{
+ 	width: 17%;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-color: #FCFCFC;
+ 	padding: 5px;
+ }
+  .skill4{
+ 	width: 17%;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-color: #FCFCFC;
+ 	padding: 5px;
+ }
+ #skill-head{
+ 	text-transform: uppercase;
+ 	font-weight: 300;
+ 	font-size: 24px;
+ }
+
+.img-skill{
+	height: 150px;
+}
+
+.service{
+	display: flex;
+	width: 100%;
+	background-color: #FCFCFC;
+	box-sizing: border-box;
+	height: 200px;
+}
+.service1{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fcfcfc;
+}
+
+.service1 h2{
+	font-weight: 600;
+ 	font-size: 24px;
+ 	color: #1e1f21;
+}
+.service2{
+	width: 70%;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer{
+	width: 100%;
+	display: flex;
+	background-color: #e88f96;
+	font-weight: 200;
+	box-sizing: border-box;
+	height: 300px;
+	color: #1e1f21;
+}
+.foothead{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #1e1f21;
+
+}
+.footright{
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #1e1f21;
+}
+.email{
+	width: 33%;
+}
+.email p:nth-child(2){
+	font-size: 18px;
+	font-weight: 600;
+}
+.address{
+	width: 33%;
+}
+.address p:nth-child(2){
+	font-size: 18px;
+	font-weight: 600;
+}
+.follow{
+	width: 33%;
+}
+.follow li{
+	display: inline-block;
+	padding-left: 10px;
+}
+/*.follow li a:hover{
+	color: #e88f96;
+	background-color: #e88f96;
+}*/
+
+.follow ul li img{
+	height: 20px;
+}
+.foothead p{
+	font-size: 24px;
+	margin: 0;
+	padding: 5px;
+}
+
+.foothead p > span{
+	font-family: "Macondo", cursive;
+	margin: 0;
+	font-weight: 800;
+	font-size: 24px;
+}
+
+
+
+/*media screen setting */
+ @media all and (max-width:600px){
+ 	.nav{
+ 		flex-direction: column;
+ 	}
+ 	.logo{
+ 		width: 100%;
+ 	}
+ 	.menu{
+ 		width: 100%;
+ 		flex-wrap: wrap;
+ 	}
+ 	.menu li{
+ 		padding: 10px;
+ 	}
+ }
