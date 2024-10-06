@@ -1,5 +1,5 @@
 body{
-	background-color: #F5F5F5;
+	background-color: #FCFCFC;
 	font-family: "Montserrat", sans-serif;
 }
 
@@ -281,7 +281,6 @@ a:hover{
 	width: 100%;
 	box-sizing: border-box;
 	height: 200px;
-	background-color: #F0F0F0;
 }
 .service1{
 	width: 30%;
@@ -393,5 +392,15 @@ a:hover{
  	}
  	.menu li{
  		padding: 10px;
+ 	}
+
+ 	.banner{
+ 		display: flex;
+ 		flex-wrap: wrap;
+ 		height: 900px;
+ 	}
+
+ 	.intro p{
+ 		font-size: 2em;
  	}
  }
